@@ -1,6 +1,6 @@
 [user]
-  name = Jeff Geerling
-  email = geerlingguy@mac.com
+  name = Alex Dohmen
+  email = alex.dohmen@kodematics.com
 [core]
   editor = vi
   excludesfile = ~/.gitignore
