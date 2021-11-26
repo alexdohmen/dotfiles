@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$PATH"
+export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$HOME/.cargo/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export NVM_DIR="$HOME/.nvm"
 
