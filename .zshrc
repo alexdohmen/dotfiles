@@ -1,10 +1,11 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH="$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:$HOME/.cargo/bin:$PATH"
+BH=$(brew --prefix)
+export PATH="$HOME/Library/Python/3.8/bin:$BH/bin:$HOME/.cargo/bin:$BH/anaconda3/bin:$BH/opt/ruby/bin:$BH/lib/ruby/gems/3.0.0/bin:n$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export NVM_DIR="$HOME/.nvm"
 
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"
+[ -s "$BH/opt/nvm/nvm.sh" ] && . "$BH/opt/nvm/nvm.sh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
