@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-BH=$(brew --prefix)
+BH=$(/opt/homebrew/Homebrew/bin/brew --prefix)
 export PATH="$HOME/Library/Python/3.8/bin:$BH/bin:$HOME/.cargo/bin:$BH/anaconda3/bin:$BH/opt/ruby/bin:$BH/lib/ruby/gems/3.0.0/bin:n$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 export NVM_DIR="$HOME/.nvm"
